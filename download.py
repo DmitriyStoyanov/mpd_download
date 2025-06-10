@@ -115,7 +115,7 @@ def main(xml_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Использование: python download_and_concatenate.py <путь к XML файлу>")
+        print("Использование: python download.py <путь к XML файлу>")
         sys.exit(1)
 
     xml_file = sys.argv[1]
